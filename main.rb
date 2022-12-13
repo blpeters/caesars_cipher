@@ -1,7 +1,6 @@
 # currently adding tests...
 
-ef caesars_cipher(string, shift)
-  puts "cipherin'..."
+def caesars_cipher(string, shift)
   original_array = string.chars
   shifted_text = ""
 
@@ -19,7 +18,8 @@ ef caesars_cipher(string, shift)
     else shifted_text << char.ord + shift
     end  
   end
-puts shifted_text
+  shifted_text
 end
 
-caesars_cipher("You\'ll never read my secret", 9)    
+puts caesars_cipher("You\'ll never read my secret", 9)
+puts caesars_cipher('A-Za-z', 5)
