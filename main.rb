@@ -1,4 +1,6 @@
-def caesars_cipher(string, shift)
+# currently adding tests...
+
+ef caesars_cipher(string, shift)
   puts "cipherin'..."
   original_array = string.chars
   shifted_text = ""
